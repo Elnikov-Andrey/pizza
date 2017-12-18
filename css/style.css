@@ -1,0 +1,210 @@
+html, body{
+    font-family: a_StamperBrk;
+    background: #8EA45B;
+    margin: 0;
+    padding: 0;
+    /*background-image: url(../img/bg/main.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+/*-------------HEADER---------------*/
+.info, .post, .title{
+    height: 110px;
+}
+.info h5{
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 120%;
+}
+.post{
+    text-align: center;
+
+ }
+.post img{
+    max-width: 120%;
+}
+.title h1{
+    margin-left: -10%;
+    font-family: a_StamperBrk;
+    font-size: 4.5vw;
+    color: #FFDB58;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  }
+/*--------------------NAV-----------------------*/
+nav{
+    text-align: center;
+    height: 32px;
+    border: 1px solid #918151;
+    border-radius: 5px;
+    background: #BDB76B;
+}
+.nav-left, .nav-right{
+    position: absolute;
+}
+.nav-left{
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+.nav-right{
+    margin-top: 0;
+    margin-left: 48%;
+    font-size: 1.5vw;
+}
+.nav-left a, .nav-right a{
+    word-spacing: 5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: #390E0E;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: #F0E68C;
+    text-decoration: none;
+}
+.nav-left a.active{
+    color: #F0E68C;
+    font-size: 1.5vw;
+}
+
+/*----------------MAIN-------------------*/
+main{
+    min-height: calc(100vh - 170px);
+    color: black;
+}
+.slider{
+    position: absolute;
+    background: transparent;
+    margin: 0 auto;
+    padding: 15px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+.slider h3{
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    text-align: right;
+    margin-right: 12%;
+    margin-top: 3%;
+    color: #F5F299;
+}
+.slider img{
+    border-radius: 10px;
+    box-shadow: 4px 8px 4px black;
+}
+#my_slider {
+    float: right;
+    width: 500px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+    list-style: none outside none;
+    padding: 0;
+}
+#my_slider li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+#my_slider li:first-child {
+    display:block;
+}
+#counter {
+    color: #F0E68C;
+    margin-left: 50px;
+    margin-top: -30px;
+    font-size:14px;
+    width:100px;
+}
+
+.carousel{
+    width: 350px;
+    float: left;
+    position: absolute;
+    margin-left: 42%;
+}
+.carousel h3{
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    margin-top: 10%;
+    margin-left: 23%;
+    color: #F5F299;
+}
+#wrapper{
+    position: absolute;
+    margin-top: 5px;
+}
+#container{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    height: 210px;
+    width: 620px; /* 3 images of 150px showing with a 10px margin = 3*(150) + 2*(10) = 470 */
+    overflow: hidden;
+}
+#container img{
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 4px 8px 4px black;
+}
+#carouselLeft{
+    position: absolute;
+    top: 210px;
+    left: 280px;
+    cursor: pointer;
+}
+#carouselRight{
+    position: absolute;
+    top: 210px;
+    left: 400px;
+    cursor: pointer;
+}
+.delivery{
+    height: 50px;
+    width: 440px;
+    margin-left: 100px;
+    margin-top: 400px;
+    border: 1px solid #918151;
+    border-radius: 10px;
+    position: absolute;
+    background: #BDB76B;
+}
+.delivery p{
+    color: #390E0E;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.news{
+    height: 100px;
+    width: 600px;
+    margin-left: 660px;
+    margin-top: 350px;
+    border: 1px solid #918151;
+    border-radius: 10px;
+    position: absolute;
+    background: #BDB76B;
+}
+.news p{
+    margin-left: 10px;
+    color: #390E0E;
+    letter-spacing: 1px;
+}
+
+footer{
+    vertical-align: bottom;
+    text-align: center;
+    height: 28px;
+    border: 1px solid #918151;
+    border-radius: 5px;
+    background: #BDB76B;
+}
+footer span{
+    display: inline-block;
+    margin-top: 0.3%;
+    text-align: center;
+    color: black;
+}

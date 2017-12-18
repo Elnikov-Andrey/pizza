@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PIZZA</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/friends.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="info col-lg-5 col-md-5 col-sm-5">
+                <h5>м. Дніпро</h5>
+                <h5>вул. Центральна 100</h5>
+                <h5>тел. (056) 777-77-77</h5>
+            </div>
+            <div class="post col-lg-2 col-md-2 col-sm-2">
+                <img src="img/bg/post.png" alt="">
+            </div>
+            <div class="title col-lg-5 col-md-5 col-sm-5">
+                <h1>VETERANO PIZZA</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="nav-left col-lg-6 col-md-6 col-sm-6">
+                <a href="index.html">Головна</a>
+                <a class="active" style="margin: 0 30px 0 30px" href="friends.html">Друзi</a>
+                <a href="">Бiзнес ветеранiв</a>
+            </div>
+            <div class="nav-right col-lg-6 col-md-6 col-sm-6">
+                <a href="pizza.html">Пiца</a>
+                <a style="margin: 0 30px 0 30px" href="menu.html">Меню</a>
+                <a href="italy.html">Iталiйськi страви</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main>
+    <div class="container-fluid">
+        <div class="row pizza">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td class="tde">
+                        <a href="https://www.facebook.com/groups/1610183142572957/" target="_blank"><img alt="" src="img/friends/vetato.png" style="line-height: 1.2; width: 180px; height: 180px;" data-pin-nopin="true"></a>
+                    </td>
+                    <td>
+                        <h3>Київська міська спілка ветеранів АТО Деснянського району</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://vk.com/crystal_zakrevskogo93a" target="_blank"><img alt="" src="img/friends/crystalfitness.jpg" style="width: 194px; height: 185px;" title="Кристал фітнес- тренажерний зал і фітнес клуб :: +38 (063) 277-87-83" data-pin-nopin="true"></a>
+                    </td>
+                    <td>
+                        <h3>Кристал фітнес- тренажерний зал і фітнес клуб <br> :: +38 (063) 277-87-83</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="http://unpf.com.ua/" style="line-height: 1.2;" target="_blank"><img alt=" Українська федерація натурального пауерліфтингу" src="img/friends/brp.png" style="margin-right: 3px; margin-left: 3px; width: 222px; height: 222px;" title=" Українська федерація натурального пауерліфтингу"></a>
+                    </td>
+                    <td>
+                        <h3>Українська федерація натурального пауерліфтингу</h3>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <!--<div class="friends">
+                <a href="https://www.facebook.com/groups/1610183142572957/" target="_blank"><img alt=""  src="img/friends/vetato.png" style="line-height: 1.2; width: 180px; height: 180px;" data-pin-nopin="true"></a>
+                <a href="http://vk.com/crystal_zakrevskogo93a" target="_blank"><img alt="Кристал фітнес- тренажерний зал і фітнес клуб." src="img/friends/crystalfitness.jpg" style="width: 194px; height: 185px;" title="Кристал фітнес- тренажерний зал і фітнес клуб :: +38 (063) 277-87-83" data-pin-nopin="true"></a>
+                <a href="http://unpf.com.ua/" style="line-height: 1.2;" target="_blank"><img alt=" Українська федерація натурального пауерліфтингу" src="img/friends/brp.jpg" style="margin-right: 3px; margin-left: 3px; width: 150px; height: 222px;" title=" Українська федерація натурального пауерліфтингу"></a>
+                <a href="http://new.netassist.ua/" target="_blank"><img alt="" src="img/friends/netassist.png" style="width: 200px; height: 78px;" data-pin-nopin="true"></a>
+                <a href="https://www.facebook.com/faynachayna" target="_blank"><img alt="" src="img/friends/tea.jpg" style="width: 323px; height: 68px;" data-pin-nopin="true"></a>
+                <a href="http://malibu-sport.com.ua/" target="_blank"><img alt="" src="img/friends/malibu.jpg" style="height: 146px; width: 250px;" title="Фитнес клуб и тренажерный зал"></a>
+            </div>-->
+        </div>
+    </div>
+</main>
+
+<footer>
+    <span>Бронювання столикiв: +38 (096) 725-02-02</span>
+    <span style="margin: 0 30px 0 200px">VETERANO PIZZA (C) 2017</span>
+    <span>ВСI ПРАВА ЗАХИЩЕНО.</span>
+</footer>
+<!--<script>
+    var bg_Offset = 0;
+    function scroll_bg(){
+        bg_Offset = bg_Offset - 1;
+        if (bg_Offset > 277) bg_Offset = 0;
+        $("body").css("backgroundPosition", bg_Offset + "px 0px");
+    }
+    $(document).ready(function(){ setInterval("scroll_bg()",150); });
+
+    function onMenu() {
+        var newDiv = document.createElement('div');
+        document.body.appendChild(newDiv);
+        newDiv.className = 'new-div';
+    }
+
+    function outMenu(){
+        document.body.removeChild('newDiv');
+    }
+</script>-->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+
+</body>
+</html>

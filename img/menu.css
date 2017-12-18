@@ -1,0 +1,100 @@
+html, body{
+    font-family: a_StamperBrk;
+    background-image: url(../img/bg/military-bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*-------------HEADER---------------*/
+.info, .post, .title{
+    height: 110px;
+}
+.info p{
+    color: #F5F299;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 120%;
+}
+.post{
+    text-align: center;
+
+}
+.post img{
+    max-width: 120%;
+}
+.title h1{
+    margin-left: -10%;
+    font-family: a_StamperBrk;
+    font-size: 4.5vw;
+    color: #F5F299;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+/*--------------------NAV-----------------------*/
+nav{
+    text-align: center;
+    height: 32px;
+    border: 1px solid #F0E68C;
+    border-radius: 5px;
+}
+.nav-left, .nav-right{
+    position: absolute;
+}
+.nav-left{
+    margin-left: 0;
+}
+.nav-right{
+    margin-left: 49%;
+}
+.nav-left a, .nav-right a{
+    word-spacing: 5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: #F0E68C;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: #FFDB58;
+    text-decoration: none;
+}
+.nav-right a.active{
+    color: #FFDB58;
+    font-size: 1.6vw;
+}
+/*----------------MAIN-------------------*/
+main{
+    min-height: calc(100vh - 170px);
+    color: black;
+    /*background-image: url(../img/bg/spoons2.jpg);
+    background-size: cover;*/
+}
+.modal{
+    font-family: Arial;
+}
+.btn{
+    font-size: 1.3vw;
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: 5px;
+    height: 40px;
+    width: 250px;
+    background: transparent !important;
+    border-radius: 5px;
+    border: 1px solid #F0E68C !important;
+    color: #FFDB58;
+}
+.btn:hover, .btn:active, .btn:focus{
+    background: transparent !important;
+
+}
+
+
+footer{
+    vertical-align: bottom;
+    text-align: center;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+footer span{
+    text-align: center;
+    color: black;
+}

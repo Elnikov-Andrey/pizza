@@ -1,0 +1,105 @@
+html, body{
+    font-family: a_StamperBrk;
+    background: #8EA45B;
+    margin: 0;
+    padding: 0;
+    /*background-image: url(../img/bg/military-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+/*-------------HEADER---------------*/
+.info, .post, .title{
+    height: 110px;
+}
+.info h5{
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 120%;
+}
+.post{
+    text-align: center;
+ }
+.post img{
+    max-width: 120%;
+}
+.title h1{
+    margin-left: -10%;
+    font-family: a_StamperBrk;
+    font-size: 4.5vw;
+    color: #FFDB58;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  }
+/*--------------------NAV-----------------------*/
+nav{
+    text-align: center;
+    height: 32px;
+    border: 1px solid #918151;
+    border-radius: 5px;
+    background: #BDB76B;
+}
+.nav-left, .nav-right{
+    position: absolute;
+}
+.nav-left{
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+.nav-right{
+    margin-top: 0;
+    margin-left: 48%;
+    font-size: 1.5vw;
+}
+.nav-left a, .nav-right a{
+    word-spacing: 5px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: #390E0E;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    color: #F0E68C;
+    text-decoration: none;
+}
+.nav-right a.active{
+    color: #F0E68C;
+    font-size: 1.5vw;
+}
+/*----------------MAIN-------------------*/
+main{
+    min-height: calc(100vh - 170px);
+    color: black;
+    /*background-image: url(../img/bg/spoons2.jpg);
+    background-size: cover;*/
+}
+.table{
+    background: transparent;
+    border: 1px solid black;
+}
+.tde{
+    width: 30%;
+}
+table td{
+    background: transparent;
+    text-align: center;
+    border: 1px solid black;
+}
+table h3{
+    font-size: 120%;
+    margin-top: 5%;
+}
+
+footer{
+    vertical-align: bottom;
+    text-align: center;
+    height: 28px;
+    border: 1px solid #918151;
+    border-radius: 5px;
+    background: #BDB76B;
+}
+footer span{
+    display: inline-block;
+    margin-top: 0.3%;
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PIZZA</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link href="css/italy.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="info col-lg-5 col-md-5 col-sm-5 ">
+                <h5>м. Дніпро</h5>
+                <h5>вул. Центральна 100</h5>
+                <h5>тел. (056) 777-77-77</h5>
+            </div>
+            <div class="post col-lg-2 col-md-2 col-sm-2">
+                <img src="img/bg/post.png" alt="">
+            </div>
+            <div class="title col-lg-5 col-md-5 col-sm-5">
+                <h1>VETERANO PIZZA</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="nav-left col-lg-6 col-md-6 col-sm-6">
+                <a href="index.html">Головна</a>
+                <a style="margin: 0 30px 0 30px" href="friends.html">Друзi</a>
+                <a href="">Бiзнес ветеранiв</a>
+            </div>
+            <div class="nav-right col-lg-6 col-md-6 col-sm-6">
+                <a href="pizza.html">Пiца</a>
+                <a style="margin: 0 30px 0 30px" href="menu.html">Меню</a>
+                <a class="active" href="italy.html">Iталiйськi страви</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="menu col-lg-2 col-md-2 col-sm-2">
+                <div>
+                    <a href="#myModalBox" class="btn btn-primary" data-toggle="modal">БРУСКЕТИ</a>
+                </div>
+                <div>
+                    <a href="#myModalBox2" class="btn btn-primary" data-toggle="modal">ДЕСЕРТИ</a>
+                </div>
+                <div>
+                    <a href="#myModalBox3" class="btn btn-primary" data-toggle="modal">САЛАТИ</a>
+                </div>
+            </div>
+            <div class="wrapper col-lg-10 col-md-10 col-sm-10">
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <input type="radio" name="point" id="slide3">
+                <input type="radio" name="point" id="slide4">
+                <input type="radio" name="point" id="slide5">
+                <div class="slider">
+                    <div class="slides slide1"></div>
+                    <div class="slides slide2"></div>
+                    <div class="slides slide3"></div>
+                    <div class="slides slide4"></div>
+                    <div class="slides slide5"></div>
+                </div>
+                <div class="controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                    <label for="slide5"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModalBox" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h4 class="modal-title">БРУСКЕТИ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-striped table-bordered table-hover table-condensed table-md">
+                                <tbody>
+                                <tr>
+                                    <td>БРУСКЕТТА З ІТАЛІЙСЬКИМ МЯСОМ  DI PARMA</td>
+                                    <td>Багет, конкасе, італійське мясо Di Parma, оливкова олія, базилік</td>
+                                    <td>240г</td><td>80грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Салат "Цезар"</td><td>290 г</td><td>85 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Салат Капрезе</td><td>300 г</td><td>80 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Салат з теплою телятиною</td><td>300 г</td><td>80 грн</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myModalBox2" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h4 class="modal-title">ДЕСЕРТИ</h4>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table table-striped table-bordered table-hover table-condensed">
+                                <tbody>
+                                <tr>
+                                    <td>Капкейк</td><td>100 г</td><td>35 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Цукати</td><td>100 г</td><td>30 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Тірамісу</td><td>190 г</td><td>50 грн</td>
+                                </tr>
+                                <tr>
+                                    <td>Чізкейк</td><td>190 г</td><td>55 грн</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myModalBox3" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                            <h4 class="modal-title">САЛАТИ</h4>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</main>
+
+<footer>
+    <span>Бронювання столикiв: +38 (096) 725-02-02</span>
+    <span style="margin: 0 30px 0 200px">VETERANO PIZZA (C) 2017</span>
+    <span>ВСI ПРАВА ЗАХИЩЕНО.</span>
+</footer>
+
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+
+</body>
+</html>
